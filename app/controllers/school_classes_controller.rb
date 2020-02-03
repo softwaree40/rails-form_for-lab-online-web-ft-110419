@@ -20,10 +20,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def edit
-    #
-    binding.pry
     @school_class = SchoolClass.find(params[:id])
-    
   end
 
   def update
